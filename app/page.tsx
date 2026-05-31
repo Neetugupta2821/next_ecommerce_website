@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import Banner from "./Componenet/Banner";
 export default function Home() {
   return (
     <div>
-      <p>hello world</p>
+      <Banner/>
     </div>
   );
 }
